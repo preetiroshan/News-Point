@@ -1,0 +1,105 @@
+
+body {
+  margin: 0;
+  font-family:'Economica', sans-serif;
+  /* font-family: 'Homemade Apple', cursive; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #655ebe;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.newsCard{
+  margin: 2em
+}
+/* .news-list{
+  max-width: 100vw;
+} */
+.header{
+  width:100%;
+  color: aliceblue;
+  /* text-shadow: 2px 2px white; */
+  /* font-weight: bold; */
+  font-family: 'Economica', sans-serif;
+  font-size: x-large;
+}
+.footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: white;
+  margin: 0;
+  background-color: rgb(11, 12, 12);
+}
+.appBody{
+  background-color: color;
+}
+nav{
+  /* background-color: #208cad; */
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-brand{
+  font-family: 'Economica', sans-serif;
+  /* font-family: 'Homemade Apple', cursive; */
+  padding: 1em;
+  color: white;
+}
+.footer-navbar{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5vh;
+  font-size: medium;
+  /* background-color: #208CAD; */
+}
+.navbar{
+  background-color: #208CAD;
+  color: aliceblue;
+}
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+i{
+  padding-top: 1vh;
+}
+.logOutButton :visited{
+ display: none;
+}
+.nav-link{
+  color: black
+}
+#subscribeBtn{
+  border-radius: 10px;
+}
+
+/* ******************************************************** */
+.country-dropdown{
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.jumbo-title{
+  /* color: rgb(11, 57, 173)
+   */
+   color: rgb(5, 51, 110);
+}
+.jumbotron{
+  background-image: linear-gradient(
+      rgba(250, 250, 250, 0.583),
+      rgba(247, 239, 239, 0.919)
+    ),
+    url("./jumbo2.jpg");
+
+  background-size: cover;
+}
+.jumbo-text{
+  z-index: 4;
+}
